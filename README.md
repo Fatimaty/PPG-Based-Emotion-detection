@@ -27,7 +27,7 @@ Publisher : Korean Society for Convergence Signal Processing
 ```bash
 python train.py
 ```
-(Add your dataset loader in `train.py`.)
+
 
 ### 2. Predict
 ```bash
@@ -50,7 +50,17 @@ Then contact the authors with proof of citation.
 
 ---
 
-## 🧠 Techniques Used
+##  Techniques Used
 - Preprocessing: Butterworth bandpass filtering, normalization.  
 - Model: CNN for temporal features (5 emotions: happy, sad, angry, calm, fear).  
-- Evaluation: Accuracy, F1-score, Confusion Matrix.  
+- Evaluation: Accuracy, F1-score, Confusion Matrix.
+
+  Preprocessing Of PPG:P
+  <img width="860" height="371" alt="image" src="https://github.com/user-attachments/assets/d44e3bd4-8327-4b94-93b7-26e976b25b37" />
+
+
+  Rseults:
+  <img width="1676" height="676" alt="image" src="https://github.com/user-attachments/assets/75ff27bf-0177-4a01-b444-31819927bf2e" />
+<img width="1507" height="626" alt="image" src="https://github.com/user-attachments/assets/b5d7e6df-4361-4b2d-ad2c-3f096c943d61" />
+
+   
